@@ -1,0 +1,140 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>traval-scout Website Template | Home :: W3layouts</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="<?php echo base_url('public/css-s/style.css?version=12') ?>"  media="all" > 
+		<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="<?php echo base_url('public/css-s/responsiveslides.css') ?>">
+		<link rel="stylesheet" href="<?php echo base_url('public/fonts/font-awesome/css/font-awesome.min.css') ?>">
+		<link rel="stylesheet" href="<?php echo base_url('public/css/AdminLTE.min.css')?>">
+		<script src="<?php echo base_url('public/js-s/jquery.min.js') ?>"></script>
+		<script src="<?php echo base_url('public/js-s/responsiveslides.min.js') ?>"></script>
+			<!--page ins-sub-->
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link rel="stylesheet" href="<?php echo base_url('public/css-s/form-login.css') ?>">
+		 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+		 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<!--end page ins-sub-->
+		
+	</head>
+	<body>
+	 
+		<!---start-wrap---->
+		<div class="header">
+		<div class="">
+			<!---start-header---->
+				<!---start-logo---->
+				<div class="logo">
+					<h1>CTDA<strong>2019</strong></h1>
+				</div>
+				<!---End-logo---->
+				<!---start-top-nav---->
+				<div class="top-search-social-nav">
+					<ul>
+						<li class=""><a href="#"><img src="<?= base_url('public/images-s/facebook.png') ?>" title="Facebook" /></a></li>
+						<li><a href="#"><img src="<?= base_url('public/images-s/twitter.png') ?>" title="Twitter" /></a></li>
+						<div class="clear"> </div>
+					</ul>
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+				<!---End-top-nav---->
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+		</div>
+		<nav class="navbar navbar-inverse" style="margin-bottom: 0px; border-radius: 0px;">
+
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar text-left"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					
+					
+					<div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+						<ul class="nav navbar-nav list-menu-cat">	
+							<li><a style="color:#7FBB00;" href="<?= base_url()?>"><span>HOME</span></a></li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('objetivo')?>"><span>OBJETIVO</span></a>
+							</li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('inscricao')?>"><span>INSCRIÇÃO E SUBMISSÃO DE TRABALHOS</span></a>
+							</li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('programacao')?>"><span>PROGRAMAÇÃO</span></a>
+							</li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('atividades')?>"><span>ATIVIDADES</span></a>
+							</li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('contatos')?>"><span>CONTATOS</span></a>
+							</li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('local')?>"><span>LOCAL</span></a>
+							</li>
+							<li><a style="color:#7FBB00;" href="<?= base_url('minicursos')?>"><span>MINICURSOS</span></a>
+							</li>
+						</ul>					
+				    </div>
+
+		</nav>
+		
+	<section>
+		<?php
+		if (isset($view)) {
+			$this->load->view($view); 
+		}
+		?>
+	</section>
+
+	<div class="clear"> </div>
+	<div class="footer">
+		<div class="wrap">
+			<div class="footer-grid">
+				<h3>Sobre</h3>
+				<p>O III Congresso de Tecnologias e Desenvolvimento da Amazônia (III CTDA) tem por objetivo proporcionar a partir de programação científica diversificada, a divulgação das atividades científicas promovida pelas Instituições de Ensino e Pesquisa da Região Oeste e Sudeste Paraense.</p>
+				<a href="#">Saiba Mais</a>
+			</div>
+			<div class="footer-grid center-grid">
+				<h3>Realização</h3>
+				<ul>
+					<li><img style="width: 90px;" src="<?= base_url('public/images-s/site/ifpa.jpeg')?>" alt="IFPA"></li>
+					<li><img style="width: 90px; height: 60px;" src="<?= base_url('public/images-s/site/embrapa.jpeg')?>" alt="Embrapa"></li>
+					<div style="float: right; margin-top: -157px; margin-right: 55px;">
+						<li><img style="width: 90px;" src="<?= base_url('public/images-s/site/Ufopa.jpg')?>" alt="UFOPA"></li>
+						<li><img style="width: 90px; height: 60px;" src="<?= base_url('public/images-s/site/Ufopa10anos.jpg')?>" alt="UFOPA 10 Anos"></li>
+					</div>
+				</ul>
+			</div>
+			<div class="footer-grid center-grid">
+				<h3>Apoio</h3>
+				<ul>
+					<li><img class="img-responsive"  style="max-width:20%;"  src="<?= base_url('public/images-s/site/logo_capes.png')?>" alt="Capes"></li>
+					<li><img  class="img-responsive"  style="max-width:20%;" src="<?= base_url('public/images-s/site/Agroecossistema.png')?>" alt="Agroecossistema"></li>
+					<div style="float: right; margin-top: -157px; margin-right: 63px;">
+						<li><img style="width: 80px; margin-bottom: -28px;" src="<?= base_url('public/images-s/site/logo_labex.png')?>" alt="LABEX"></li>
+						<li><img style="width: 80px; height: 50px;" src="<?= base_url('public/images-s/site/LogoNUMA.jpg')?>" alt="NUMA"></li>
+						<li><img style="width: 80px; height: 50px;" src="<?= base_url('public/images-s/site/inpa.jpeg')?>" alt="Inpa"></li>
+					</div>
+				</ul>
+			</div>
+			<div class="footer-grid">
+				<h3>Entre em contato</h3>
+				<p style="color: white;">iiictda@gmail.com</p>
+			</div>
+			<div class="clear"> </div>
+		</div>
+		<div class="clear"> </div>
+	</div>
+	<div class="clear"> </div>
+	<div class="copy-right">
+		<p>&copy; 2019 CTDA. All rights reserved</p>
+	</div>
+	</body>
+</html>
+
